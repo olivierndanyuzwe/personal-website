@@ -1,0 +1,82 @@
+body, html {
+    height: 100%;
+}
+.bg{
+    background-image: url(image.html/IMG_5427.JPG);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.sidebar{
+    margin: 0;
+    padding: o;
+    width: 200px;
+    background-color:#f1f1f1 ;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.sidebar a{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+.sidebar a.active{
+    background-color:rgb(5, 117, 24);
+    color: white;
+}
+.sidebar a:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
+div.content{
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: auto;
+    background-color: rgb(17, 131, 32);
+}
+@media screen and (max-width:700px) {
+    .sidebar{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar a {float: left;}
+        div.content {margin-left: 0;}
+    
+}
+@media screen and (max-width:400px) {
+    .sidebar a{
+        text-align: center;
+        float: none;
+    }
+}
+.cont{
+        background-color: aliceblue;
+        padding: 5px;
+        width: 50%;
+        border-radius: 5px;
+        display: inline-block;
+        font-size: larger;
+        margin: 20%;
+        margin-top: 5%;}
+
+#content{
+    background-image: url(../media/17.jpg);
+    height: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+element.style {
+}
+.CodeMirror-wrap pre {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: normal;
+}
